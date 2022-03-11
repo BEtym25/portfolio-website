@@ -1994,6 +1994,11 @@ ul.actions li:first-child {
   margin-left: -2.75em;
 }
 
+#nav a .serv-proc-span {
+  width: 10em;
+  margin-left: -5em;
+}
+
 #nav a span:after {
   content: "";
   display: block;
