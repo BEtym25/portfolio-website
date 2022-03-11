@@ -1524,7 +1524,7 @@ h2 {
   color: #457b9d;
 }
 .home-hi {
-  color: #e63946;
+  color: #457b9d;
   font-weight: bold;
 }
 h3,
@@ -1716,10 +1716,10 @@ header > p {
 .image {
   display: inline-block;
 }
-
 .image img {
   display: block;
   width: 100%;
+  border-radius: 5px;
 }
 
 .image.fit {
