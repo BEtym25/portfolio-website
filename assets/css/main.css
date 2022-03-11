@@ -151,6 +151,7 @@ textarea {
   -webkit-appearance: none;
   -ms-appearance: none;
   appearance: none;
+  border-radius: 10px;
 }
 a {
   text-decoration: none;
@@ -1509,19 +1510,23 @@ h4,
 h5,
 h6 {
   font-weight: 400;
-  color: #363636;
 }
 
 h1 {
   font-size: 2.4em;
   letter-spacing: -0.015em;
+  color: #86dadd;
 }
 
 h2 {
   font-size: 1.8em;
   letter-spacing: -0.015em;
+  color: #457b9d;
 }
-
+.home-hi {
+  color: #e63946;
+  font-weight: bold;
+}
 h3,
 h4,
 h5,
@@ -1697,7 +1702,7 @@ header {
 
 header > p {
   margin: 0.5em 0 0 0;
-  color: rgb(93, 93, 93);
+  color: #1d3557;
 }
 
 @media screen and (max-width: 736px) {
@@ -1753,7 +1758,7 @@ button,
 #main-button {
   -webkit-appearance: none;
   display: inline-block;
-  background-color: #494949;
+  background-color: #457b9d;
   color: white;
   border: 0;
   border-radius: 10px;
@@ -2304,11 +2309,14 @@ body.is-preload #wrapper {
   list-style: none;
   padding-left: 0;
 }
+a > i {
+  color: #a8dadc;
+}
 #footer .copyright .social-icons-li {
   border: none;
   padding-left: 0.5em;
   margin-left: 0.5em;
-  font-size: 1.5em;
+  font-size: 2em;
 }
 #footer .copyright li {
   display: inline-block;
