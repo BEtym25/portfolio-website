@@ -1355,7 +1355,7 @@ a {
 		background-attachment: fixed;
 		overflow-y: scroll;
 	}
-
+	
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
 			-webkit-animation: none !important;
@@ -1479,7 +1479,13 @@ a {
 	p, ul, ol, dl, table, blockquote, form {
 		margin-bottom: 2em;
 	}
-
+	#contact span {
+		font-weight: bold;
+	}
+	#contact header h2 {
+		padding-bottom: 15px;
+		border-bottom: 1px solid gray;
+	}
 /* Table */
 
 	table {
