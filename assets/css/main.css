@@ -1910,6 +1910,7 @@ ul.actions li:first-child {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-top: 1.5em;
 }
 .icon-html,
 .icon-css,
