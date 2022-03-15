@@ -1369,7 +1369,13 @@ a {
     padding-top: 2.5em;
   }
 }
-
+.row span {
+  color: #457b9d;
+  font-size: 1em;
+}
+.row a {
+  margin-top: .5em;
+}
 /* Basic */
 
 html {
@@ -2040,8 +2046,16 @@ ul.actions li:first-child {
   #nav a span {
     display: none;
   }
+  .mePic,
+  .mePic-2 {
+    display: none;
+  }
 }
-
+@media (min-width: 981px) and (max-width: 2500px) {
+  .mePic-2 {
+    display: none;
+  }
+}
 /* Wrapper */
 
 #wrapper {
