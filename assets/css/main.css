@@ -1906,7 +1906,32 @@ ul.actions li:first-child {
 }
 
 /* Icons */
-
+.icons-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.icon-html,
+.icon-css,
+.icon-nodejs,
+.icon-javascript-alt {
+  margin-left: .2em;
+}
+.javascript-skill-container span {
+  margin-bottom: -.5em;
+}
+.icons-container span {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+}
+.icons-container i {
+  font-size: 4em;
+  color: green;
+}
+  .icons-container i:hover {
+    color: #86dadd;
+  }
 .icon {
   text-decoration: none;
   position: relative;
