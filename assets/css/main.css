@@ -1921,6 +1921,9 @@ ul.actions li:first-child {
 .javascript-skill-container span {
   margin-bottom: -.5em;
 }
+.reactjs-skill-container span {
+  margin-left: .5em;
+}
 .icons-container span {
   display: block;
   text-align: center;
