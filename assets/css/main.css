@@ -154,7 +154,9 @@ textarea {
 a {
   text-decoration: none;
 }
-
+textarea {
+  resize: vertical;
+}
 /* Row */
 
 .row {
@@ -1688,9 +1690,13 @@ form :-ms-input-placeholder {
 
 section,
 article {
-  margin-bottom: 3em;
+  margin-bottom: 2em;
 }
-
+.process-list li {
+  margin-top: 0.75em;
+  text-align: justify;
+  padding-right: 2em;
+}
 section > :last-child,
 section:last-child,
 article > :last-child,
