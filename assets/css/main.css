@@ -1402,9 +1402,8 @@ html {
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
-#main header :not(.tagLine, #main-button),
-#work header,
-#services header {
+#home header :not(.tagLine, #main-button),
+#work header {
   animation: fadeInAnimation ease 3.5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
