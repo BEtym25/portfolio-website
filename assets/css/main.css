@@ -642,8 +642,36 @@ textarea {
     padding-top: 2.5em;
   }
 }
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  align-items: stretch;
+  justify-content: center;
+  text-align: center;
+}
 
-@media screen and (max-width: 1280px) {
+.row > * {
+  box-sizing: border-box;
+}
+.row > .col-12-small {
+  width: 65%;
+}
+.row span {
+  color: #457b9d;
+  font-size: 1.25em;
+}
+.row a {
+  margin-top: .5em;
+}
+
+@media screen and (max-width: 736px) {
+  .row > .col-12-small {
+    width: 100%;
+  }
+}
+
+/* @media screen and (max-width: 1280px) {
   .row {
     display: flex;
     flex-wrap: wrap;
@@ -1127,21 +1155,10 @@ textarea {
   .row.gtr-200.gtr-uniform > * {
     padding-top: 2.5em;
   }
-}
+} */
 
-@media screen and (max-width: 736px) {
-  .row {
-    display: flex;
-    flex-wrap: wrap;
-    box-sizing: border-box;
-    align-items: stretch;
-  }
-
-  .row > * {
-    box-sizing: border-box;
-  }
-
-  .row.gtr-uniform > * > :last-child {
+/* @media screen and (max-width: 11736px) {
+  /* .row.gtr-uniform > * > :last-child {
     margin-bottom: 0;
   }
 
@@ -1179,9 +1196,9 @@ textarea {
 
   .row > .off-1-small {
     margin-left: 8.33333%;
-  }
+  } */
 
-  .row > .col-2-small {
+  /* .row > .col-2-small {
     width: 16.66667%;
   }
 
@@ -1195,9 +1212,9 @@ textarea {
 
   .row > .off-3-small {
     margin-left: 25%;
-  }
+  } */
 
-  .row > .col-4-small {
+  /* .row > .col-4-small {
     width: 33.33333%;
   }
 
@@ -1259,13 +1276,9 @@ textarea {
 
   .row > .off-11-small {
     margin-left: 91.66667%;
-  }
+  } */
 
-  .row > .col-12-small {
-    width: 100%;
-  }
-
-  .row > .off-12-small {
+  /* .row > .off-12-small {
     margin-left: 100%;
   }
 
@@ -1284,9 +1297,9 @@ textarea {
 
   .row.gtr-0.gtr-uniform > * {
     padding-top: 0em;
-  }
+  } */
 
-  .row.gtr-25 {
+  /* .row.gtr-25 {
     margin-top: -0.3125em;
     margin-left: -0.3125em;
   }
@@ -1318,9 +1331,9 @@ textarea {
 
   .row.gtr-50.gtr-uniform > * {
     padding-top: 0.625em;
-  }
+  } */
 
-  .row {
+  /* .row {
     margin-top: -1.25em;
     margin-left: -1.25em;
   }
@@ -1352,7 +1365,8 @@ textarea {
 
   .row.gtr-150.gtr-uniform > * {
     padding-top: 1.875em;
-  }
+  } */
+/* 
 
   .row.gtr-200 {
     margin-top: -2.5em;
@@ -1369,15 +1383,9 @@ textarea {
 
   .row.gtr-200.gtr-uniform > * {
     padding-top: 2.5em;
-  }
-}
-.row span {
-  color: #457b9d;
-  font-size: 1em;
-}
-.row a {
-  margin-top: .5em;
-}
+  } */
+
+
 /* Basic */
 
 html {
